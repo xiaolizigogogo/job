@@ -1,0 +1,12 @@
+# for eclipse
+*/.settings/*
+/.project
+/.classpath
+*/target
+# for idea
+*.iml
+/.idea
+*/target
+.DS_Store
+.gitattributes
+
