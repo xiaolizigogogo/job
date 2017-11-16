@@ -202,7 +202,7 @@
 					</execution>
 					<execution>
 						<id>push-image</id>
-						<phase>deploy</phase>
+						<phase>package</phase>
 						<goals>
 							<goal>push</goal>
 						</goals>

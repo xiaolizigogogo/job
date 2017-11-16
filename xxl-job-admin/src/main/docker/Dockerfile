@@ -1,4 +1,4 @@
-FROM java:latest
+FROM openjdk:latest
 
 MAINTAINER jml
 
