@@ -1,0 +1,7 @@
+version: '2'
+services:
+  job:
+    image: registry.cn-beijing.aliyuncs.com/jml/xxl-job-admin:1.9.0-SNAPSHOT
+    restart: always
+    expose:
+     - "8080"
