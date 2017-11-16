@@ -45,6 +45,8 @@
 		<quartz.version>2.3.0</quartz.version>
 
 		<spring-boot.version>1.5.6.RELEASE</spring-boot.version>
+		<docker.registry>registry-vpc.cn-beijing.aliyuncs.com</docker.registry>
+		<docker.registry.namespace>jml</docker.registry.namespace>
 	</properties>
 
 	<build>
@@ -164,6 +166,12 @@
 					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 				</repository>
 			</distributionManagement>
+		</profile>
+		<profile>
+		<id>dev</id>
+		<properties>
+		<docker.registry></docker.registry>
+		</properties>
 		</profile>
 	</profiles>
 
