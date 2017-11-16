@@ -159,7 +159,10 @@
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 				<includes>
-					<include>**/*.*</include>
+					<include>**/*.xml</include>
+					<include>**/*.yml</include>
+					<include>**/*.json</include>
+					<include>**/*.properties</include>
 				</includes>
 			</resource>
 		</resources>
